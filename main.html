@@ -1,64 +1,52 @@
+
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	<form>
-		<label for="Name" > Name</label>
-         <br>
-         <input type ="text" id="name" name ="name" placeholder="Name">
-		<br>
-		<br>
-		<label for ="phone">phone</label>
-		<br>
-    
-		<input type="text" id ="phone" name="phone" placeholder="Phone Number">
-    <br>
-		<br>
-		<label for ="address">address</label>
-		<br>
-		<input type="text" id ="address" name="address" >
-		<br>
-		<br>
+    <script type="text/javascript" src="./script.js"></script>
 
-		 <label > "Have you ever lived with a Dog before?"</label>
-       <br>
-          <br>
-          <input type="checkbox" id="Have you ever lived with a Dog before?" name="Have you ever lived with a Dog before?" >
-          <label for="happy">Yes</label>
-          <input type="checkbox" id="Have you ever lived with a Dog before?1" name="Have you ever lived with a Dog before?" >
-          <label for="happy">No</label>
-          <br>
-          <br>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <br><br>
 
-		<label for="Please select your preferred breeds">Please select your preferred breeds</label>
-    <br>
-		<select>
-			 <option value="labra">labra</option>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number">
+        <br><br>
+
+        <label for="address">Address</label>
+        <br>
+        <input type="text" id="address" name="address">
+        <br><br>
+
+        <label>Have you ever lived with a Dog before?</label>
+        <br><br>
+
+        <input type="checkbox" id="checkbox" name="dog_experience" value="Yes">
+        <label for="checkbox">Yes</label>
+
+        <input type="checkbox" id="checkbox-no" name="dog_experience" value="No">
+        <label for="checkbox-no">No</label>
+
+        <br><br>
+
+        <label for="breeds">Please select your preferred breeds</label>
+        <br>
+
+        <select id="breeds" name="breeds">
+            <option value="labra">labra</option>
             <option value="dobarman">dobarman</option>
             <option value="shinzo">shinzo</option>
-		</select>
-    <br>
-    <br>
+        </select>
 
-		 <button type="submit">Submit</button>
+        <br><br>
 
-
-
-
-
-
-
-		
-	</form>
-
+        <button type="submit" value="Submit">Submit</button>
+    </form>
 </body>
-
 </html>
